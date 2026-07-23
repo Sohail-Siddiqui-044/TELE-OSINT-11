@@ -66,7 +66,7 @@ def heat_map(lats,lons):
     gmap3.scatter(lats,lons, '#FF0000', size=50, marker=False)
 
     gmap3.plot(lats,lons, 'cornflowerblue', edge_width = 3.0)
-    gmap3.apikey = "AIzaSyDmpwQtMwmoWGHX2UBqnAldc8CFDus77RQ"
+    gmap3.apikey = " "
     save_location = input("Enter a location to save : ")
     location = save_location + "/heatmap.html"
     gmap3.draw(location)
