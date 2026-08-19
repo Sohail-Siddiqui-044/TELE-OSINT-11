@@ -5,7 +5,7 @@ import json
 def GetEmail():
     #email = input("Enter the Email : ")
     #HaveIbeenPwned(email)
-    api_key = "208dee094fmsh7b43b025cdc30dbp1ddce9jsn5eb291965213"
+    api_key = "Your_API_KEY_HERE"
     term = input("Enter email or phone: ")
     check_breach(term, api_key)
 
